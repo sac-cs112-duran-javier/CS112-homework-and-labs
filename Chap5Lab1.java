@@ -30,6 +30,16 @@ public class Chap5Lab1
 		
 		if ( x == guess)
 			System.out.println("You guessed it right.");
+			
+		if ( x< guess)
+			System.out.println(x);
+	
+			System.out.println("The number is too big.");
+			
+			System.out.println(x);
+		if ( x< guess)
+			System.out.println("The number is too small");
+
 }
 	}
 }
